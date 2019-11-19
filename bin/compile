@@ -18,7 +18,7 @@ warnings=$(mktemp)
 
 # Install mongodb to use mongo commands
 echo "Downloading and installing mongodb..."
-file_name="mongodb-linux-x86_64-ubuntu1404-3.4.6.tgz"
+file_name="mongodb-linux-x86_64-ubuntu1604-4.0.13.tgz"
 download_url="https://fastdl.mongodb.org/linux/${file_name}"
 curl $download_url -s -o - | tar xzf - -C /tmp
 
